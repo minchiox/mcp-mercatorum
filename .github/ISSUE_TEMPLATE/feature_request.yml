@@ -1,0 +1,19 @@
+name: Proponi una funzione
+description: Un'idea per aiutare lo studio
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Il progetto è read-only per scelta: funzioni che registrano frequenza, completano lezioni o test non verranno accettate.
+  - type: textarea
+    id: need
+    attributes:
+      label: Di cosa avresti bisogno
+      description: Il problema di studio che vuoi risolvere.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Come immagini la soluzione

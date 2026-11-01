@@ -1,0 +1,6 @@
+{
+  "data": [
+    { "id": 7, "lp_type": 2, "name": "Regressione lineare", "display_order": 2, "folder_id": 0, "lp_id": 7, "title": "Regressione lineare", "percentage": 40 },
+    { "id": 5, "lp_type": 2, "name": "Introduzione ai Big Data", "display_order": 1, "folder_id": 0, "lp_id": 5, "title": "Introduzione ai Big Data ", "percentage": 100 }
+  ]
+}

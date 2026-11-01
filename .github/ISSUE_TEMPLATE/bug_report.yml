@@ -1,0 +1,33 @@
+name: Segnala un problema
+description: Qualcosa non funziona
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Non incollare** sessioni, token, catture di traffico, codice fiscale o altri dati personali.
+  - type: textarea
+    id: what
+    attributes:
+      label: Cosa succede
+      description: Cosa hai fatto, cosa ti aspettavi, cosa è successo.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Messaggio d'errore
+      description: "Ad esempio `Error [PLATFORM_CHANGED]: …` (rimuovi eventuali dati personali)."
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Versione
+      description: Output di `mcp-mercatorum --version`
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Sistema e client
+      description: Es. Ubuntu 24.04, Node 22, Claude Code

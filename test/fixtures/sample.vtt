@@ -1,0 +1,25 @@
+﻿WEBVTT
+Kind: captions
+
+NOTE This is a comment
+spanning two lines
+
+STYLE
+::cue { color: yellow }
+
+1
+00:00:00.000 --> 00:00:02.500
+Buongiorno a tutti.
+
+intro-cue
+00:00:02.500 --> 00:00:05.000 align:start
+<v Docente>Oggi parliamo di <b>dati</b></v>
+e di informazione.
+
+00:00:05.000 --> 00:00:06.000
+Oggi parliamo di dati
+e di informazione.
+
+3
+00:00:06.000 --> 00:00:09.000
+L&#39;analisi &egrave; importante! Vediamo perch&eacute;.

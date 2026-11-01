@@ -1,0 +1,9 @@
+{
+  "data": [
+    { "id": 1001, "description": "<p>La lezione introduce le <b>motivazioni</b> per lo studio dei dati.</p><ul><li>Cosa sono i dati</li><li>Il ciclo di vita</li></ul>", "lessonId": 2001, "itemId": "ITEM-A", "lp_item_id": 21, "lp_id": 5, "title": "Obiettivi", "contentType": "intro", "percentage": 100, "start_time": 0, "total_time": 0 },
+    { "id": 1003, "itemId": "ITEM-C", "duration_s": 300, "title": "Il ciclo di vita del dato", "videoUrl": "https://d9t931z8aeptt.cloudfront.net/prof_example/2001_Demo/2001_1_2/video/Demo_1__2.mp4", "mp3Url": null, "paragNumber": 2, "lessonId": 2001, "lp_item_id": 23, "lp_id": 5, "max_time_allowed": "300", "contentType": "video", "percentage": 50, "start_time": 0, "total_time": 150 },
+    { "id": 1002, "itemId": "ITEM-B", "duration_s": 657, "title": "Cosa sono i dati?", "videoUrl": "https://d9t931z8aeptt.cloudfront.net/prof_example/2001_Demo/2001_1_1/video/Demo_1__1.mp4", "mp3Url": null, "paragNumber": 1, "lessonId": 2001, "lp_item_id": 22, "lp_id": 5, "max_time_allowed": "657", "contentType": "video", "percentage": 100, "start_time": 0, "total_time": 657 },
+    { "id": 1004, "lessonId": 2001, "itemId": "ITEM-D", "testEmpty": 0, "lp_item_id": 25, "lp_id": 5, "testImported": 0, "title": "Test di autovalutazione", "contentType": "test", "percentage": 0 },
+    { "id": 2001, "title": "Introduzione ai Big Data", "type": 1, "platform_id": 2, "teacherName": "Mario", "teacherSurname": "Rossi", "secTeachName": null, "secTeachSurname": null, "lessonNumber": 1, "paragTotNumber": 2, "bookUrl": "https://d9t931z8aeptt.cloudfront.net/prof_example/2001_Demo/book_old.pdf", "mer_BookUrl": "https://d9t931z8aeptt.cloudfront.net/prof_example/2001_Demo/book.pdf", "contentType": "lesson" }
+  ]
+}

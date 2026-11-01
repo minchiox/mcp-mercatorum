@@ -1,0 +1,71 @@
+{
+  "name": "mcp-mercatorum",
+  "version": "1.0.0",
+  "description": "Unofficial, read-only MCP server and CLI: an AI study assistant for Universitas Mercatorum students (courses, lessons, transcripts, PDF handouts, progress).",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "mercatorum",
+    "unimercatorum",
+    "e-learning",
+    "study-assistant",
+    "playwright"
+  ],
+  "license": "MIT",
+  "author": "minchiox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minchiox/mcp-mercatorum.git"
+  },
+  "homepage": "https://github.com/minchiox/mcp-mercatorum#readme",
+  "bugs": {
+    "url": "https://github.com/minchiox/mcp-mercatorum/issues"
+  },
+  "type": "module",
+  "bin": {
+    "mcp-mercatorum": "dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/core/index.d.ts",
+      "default": "./dist/core/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.map",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "start": "node dist/cli.js",
+    "login": "node dist/cli.js login",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run lint && npm run typecheck && npm test",
+    "inspector": "npx @modelcontextprotocol/inspector node dist/cli.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "playwright": "^1.64.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.4",
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
